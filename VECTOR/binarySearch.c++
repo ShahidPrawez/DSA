@@ -19,7 +19,9 @@ int binarySearch(vector<int> arr, int tar){
 }
 int main(){
     vector<int> arr1={-1,0,3,4,5,9,10};
-    int tar1=5;
-    cout<<binarySearch(arr1,tar1)<<endl;
+    int tar;
+    cout<<"Ener you want to find : ";
+    cin>>tar;
+    cout<<"index No: "<<binarySearch(arr1,tar)<<endl;
     
 }
